@@ -50,7 +50,7 @@ func Test_migrationsInPath(t *testing.T) {
 
 			exists := migrationsInPath(tt.path)
 			if tt.expected != exists {
-				t.Errorf("Expected %s but got %d", tt.expected, exists)
+				t.Errorf("Expected %t but got %t", tt.expected, exists)
 			}
 		})
 	}
