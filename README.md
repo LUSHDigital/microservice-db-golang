@@ -7,6 +7,8 @@ Lush Digital - Micro Service Database (Golang)
 
 A set of database packages for Golang microservices. Best used in conjunction
  with [microservice-core-golang](https://github.com/LUSHDigital/microservice-core-golang)
+ 
+**NOTE: Requires Go 1.10+**
 
 # Package Contents
 
